@@ -1,3 +1,6 @@
+import dbConnect from "../../../utils/dbConnect";
+
 export async function GET(request) {
-  return new Response('Hello, Next.js!')
+  await dbConnect();
+  return new Response("Hello, Next.js!");
 }

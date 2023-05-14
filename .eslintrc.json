@@ -1,3 +1,12 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:@es6-eslint/recommended",
+    "prettier",
+    "plugin:@next/next/recommended",
+    "plugin:react-hooks/recommended",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ]
 }
+
